@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#acadmics-card{
+    padding-top: 5px;
+    height: 60vh;
+}
+
+#acadmics-bg{
+ background-image: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg); 
+ background-size: cover;
+ height: 90.6vh;
+}
+
+#acdmics-cardadjust{
+   
+    
+    margin-top: 5%;
+    height: 55vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+.acadmics-button{
+    border: none;
+    
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    outline: #000000;
+    outline-style:auto;
+}
+
+#btn1{
+    background: #88ce07;
+}
+
+#btn2{
+    background: #d61d1d;
+}
+
+#btn3{
+    background: #08cff2;
+}
+
+.acadmics-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#acadmics-buttons{
+    
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 30%;
+    padding-top: 5%;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,#6ac1c5,#bda5ff);
+}
+
+@media only screen and (max-width:435px) {    
+    #acadmics-buttons{
+        width: 148px;
+        display: inline-grid;
+        height: 28%;
+    }
+
+    
+
+    #acadmics-bg{
+        background-image: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg); 
+        background-size: cover;
+        height: 100vh;
+       }
+    
+}
+
+@media only screen and (min-width:435px) and (max-width:767px){
+    #acadmics-buttons{
+        width:208px;
+        display: inline-grid;
+        height: 28%;
+    }
+
+    #acadmics-bg{
+        background-image: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg); 
+        background-size: cover;
+        height: 100vh;
+       }
+
+   
+}

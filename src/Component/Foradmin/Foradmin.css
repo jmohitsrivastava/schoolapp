@@ -1,0 +1,157 @@
+#bgforadmin{
+    background-color: rgb(59, 116, 116);
+    background-size: cover;
+    height: 90.6vh;
+}
+
+#cardbodyforadmin{
+    
+    border: 2px solid purple;
+    background-color: #201f1f;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+}
+
+.text-colour{
+
+    font-weight: bold;
+    color: white;
+}
+
+#tableforshow{
+    margin-top: 2%;
+    border-radius: 10px 10px 10px 10px;
+    z-index: -1;
+    height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#foradminbuttons{
+   
+width:max-content;
+margin-left: 28%;
+padding-top: 5%;
+align-items: center;
+
+}
+
+.buttonadmin{
+    border: 2px solid rgb(57, 132, 22);
+    background: #201f1f;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: rgb(239, 239, 239);
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+.buttonadmin:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media only screen and (min-width:300px) and (max-width:421px){
+    #foradminbuttons{
+      
+       
+        display: inline-grid;
+        margin-left: 13%;
+       
+       
+    }
+
+    .buttonadmin{
+        border: 2px solid rgb(57, 132, 22);
+        background: #201f1f;
+        padding: 8px 30px;
+        border-radius: 30px;
+        color: rgb(239, 239, 239);
+        font-weight: bold;
+        font-size: 15px;
+        transition: .4s;
+        margin-top: 10%;
+    }
+
+  
+}
+
+
+@media only screen and (min-width:422px) and (max-width:678px){
+    #foradminbuttons{
+      
+       
+        display: inline-grid;
+        margin-left: 22%;
+      
+       
+    }
+
+    .buttonadmin{
+        border: 2px solid rgb(57, 132, 22);
+        background: #201f1f;
+        padding: 8px 30px;
+        border-radius: 30px;
+        color: rgb(239, 239, 239);
+        font-weight: bold;
+        font-size: 15px;
+        transition: .4s;
+        margin-top: 10%;
+    }
+
+  
+}
+
+@media only screen and (min-width:677px) and (max-width:768px){
+    #foradminbuttons{
+      
+       
+        display: inline-grid;
+        margin-left: 27%;
+        
+       
+    }
+
+    .buttonadmin{
+        border: 2px solid rgb(57, 132, 22);
+        background: #201f1f;
+        padding: 8px 30px;
+        border-radius: 30px;
+        color: rgb(239, 239, 239);
+        font-weight: bold;
+        font-size: 15px;
+        transition: .4s;
+        margin-top: 10%;
+    }
+
+   
+}
+
+@media only screen and (min-width:769px) and (max-width:1000px){
+    #foradminbuttons{
+      
+       
+        display: inline-grid;
+        margin-left: 29%;
+      
+       
+    }
+
+    .buttonadmin{
+        border: 2px solid rgb(57, 132, 22);
+        background: #201f1f;
+        padding: 8px 30px;
+        border-radius: 30px;
+        color: rgb(239, 239, 239);
+        font-weight: bold;
+        font-size: 15px;
+        transition: .4s;
+        margin-top: 10%;
+    }
+
+    
+}

@@ -1,0 +1,27 @@
+#loginform{
+   background-color: rgb(16, 14, 14);
+   opacity: 70%;
+    width: max-content;
+    padding: 20px 20px 20px 20px;
+    margin-left: 35%;
+    margin-top: 3%;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+
+#logintext{
+    
+    padding-top: 7%;
+    margin-right: 3%;
+}
+
+
+
+#loginbg{
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/6086642/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90.6vh;
+   
+
+}
